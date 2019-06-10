@@ -4,8 +4,7 @@
   "description": "Nutrition related monorepo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "test:watch": "jest --watch"
+    "test": "lerna run test --parallel"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nutriscore should be rendered ok when the "a" score is given 1`] = `
+<div
+  className="Nutriscore"
+>
+  <span>
+    NUTRI-SCORE
+  </span>
+  <ul>
+    <li
+      className="active"
+    >
+      A
+    </li>
+    <li
+      className=""
+    >
+      B
+    </li>
+    <li
+      className=""
+    >
+      C
+    </li>
+    <li
+      className=""
+    >
+      D
+    </li>
+    <li
+      className=""
+    >
+      E
+    </li>
+  </ul>
+</div>
+`;

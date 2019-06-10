@@ -1,0 +1,61 @@
+.Nutriscore {
+    padding: 16px;
+}
+
+.Nutriscore span {
+    display: block;
+}
+
+.Nutriscore ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.Nutriscore ul li {
+    align-items: center;
+    color: rgba(255, 255, 255, .6);
+    display: flex;
+    flex: 1;
+    font-size: 2rem;
+    justify-content: center;
+    padding: 8px;
+    text-align: center;
+    vertical-align: center;
+    width: 16px;
+}
+
+.Nutriscore ul li:first-child {
+    border-radius: 8px 0 0 8px;
+}
+
+.Nutriscore ul li:last-child {
+    border-radius: 0 8px 8px 0;
+}
+
+.Nutriscore ul li.a {
+    background-color: #048141;
+}
+
+.Nutriscore ul li.b {
+    background-color: #84bb2f;
+}
+
+.Nutriscore ul li.c {
+    background-color: #fecb03;
+}
+
+.Nutriscore ul li.d {
+    background-color: #ee8100;
+}
+
+.Nutriscore ul li.e {
+    background-color: #e73e10;
+}
+
+.Nutriscore ul li.active {
+    border-radius: 8px;
+    border: 1px solid #555;
+    color: white;
+    transform: scale(1.2);
+}
