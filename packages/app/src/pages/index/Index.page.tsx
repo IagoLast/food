@@ -4,7 +4,7 @@ import Nutriscore from '../../components/Nutriscore/Nutriscore';
 
 const Index: React.FC = () => {
     return (
-        <Nutriscore letter="e"></Nutriscore>
+        <Nutriscore letter="c"></Nutriscore>
     );
 }
 

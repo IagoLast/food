@@ -3,7 +3,9 @@
 }
 
 .Nutriscore span {
+    color: #888;
     display: block;
+    font-weight: 800;
 }
 
 .Nutriscore ul {
@@ -18,6 +20,7 @@
     display: flex;
     flex: 1;
     font-size: 2rem;
+    font-weight: 600;
     justify-content: center;
     padding: 8px;
     text-align: center;
