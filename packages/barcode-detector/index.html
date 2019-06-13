@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        canvas {
+            width: 100%;
+            background: #f0f0f0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>hello</h1>
+    <video id="video"></video>
+    <pre id="pre"></pre>
+
+    <script>
+        const detector = new BarcodeDetector();
+        const video = document.createElement('video');
+        // const video = document.querySelector('#video');
+
+        video.autoplay = true;
+        video.width = 480;
+        video.height = 360;
+
+        navigator.mediaDevices.getUserMedia({ video: true })
+            .then(stream => {
+                video.srcObject = stream;
+                detector.detect(video)
+                    .then(detectedBarcodes => {
+                        console.warn(detectedBarcodes);
+                        document.querySelector('#pre').innerHTML = JSON.stringify(detectedBarcodes, null, '\t');
+                    })
+                    .catch(err => {
+                        console.error(err);
+                    });
+            });
+    </script>
+</body>
+
+</html>
