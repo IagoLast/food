@@ -1,0 +1,23 @@
+{
+  "name": "@jsfood/database-scrapper",
+  "version": "1.0.0",
+  "description": "Just scrapped and json formated http://www.bedca.net/bdpub/index.php.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IagoLast/food.git"
+  },
+  "author": "@iagolast",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IagoLast/food/issues"
+  },
+  "homepage": "https://github.com/IagoLast/food#readme",
+  "dependencies": {
+    "fast-xml-parser": "^3.12.16",
+    "node-fetch": "^2.6.0"
+  }
+}
