@@ -18,6 +18,6 @@
   "homepage": "https://github.com/IagoLast/food#readme",
   "dependencies": {
     "fast-xml-parser": "^3.12.16",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.7"
   }
 }
